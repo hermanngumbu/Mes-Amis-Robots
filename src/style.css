@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: linear-gradient(
+    90deg,
+    rgba(41, 124, 126, 1) 0%,
+    rgba(41, 124, 126, 1) 49%,
+    rgba(8, 33, 85, 1) 88%
+  );
+}
+h2 {
+  font-family: "roboto", cursive;
+  text-align: center;
+  color: #151616;
+}
+p {
+  font-family: "roboto", cursive;
+  text-align: center;
+  color: #090a0a;
+}
+.title {
+  font-family: "roboto", cursive;
+  font-weight: 200;
+  color: #0ccac4;
+  text-align: center;
+}
+
+.search {
+  width: 250px;
+  height: 30px;
+  background: rgb(214, 197, 197);
+}
+input::placeholder {
+  color: rgb(15, 15, 15);
+}
+.Bloc-search {
+  width: 250px;
+  margin: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 45px 14px;
+  gap: 40px;
+}
+
+img {
+  width: 200px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  border: 1px solid #0ccac4;
+  border-radius: 7px;
+  background-color: #0ccac4;
+  width: 250px;
+}
+
+.card:hover {
+  background-color: #faa12f;
+  height: 320px;
+  transition: 500ms linear;
+}
